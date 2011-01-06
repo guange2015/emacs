@@ -1,0 +1,17 @@
+Ubuntu10.04硬盘安装，英文local，emacs23 （gtk的interface），安装来iBus-Pinyin。
+在 /etc/environment 中添加， LC_CTYPE=zh_CN.UTF-8，emacs用ctrl+空格 可以调出iBus，问题是
+打出来的字，在emacs中不显示，按照另一个网友的说法是，不上屏，不知道随风飘那去了。
+解决的方法，
+sudo gedit /var/lib/locales/supported.d/zh
+加入如下内容
+zh_SG.UTF-8 UTF-8
+zh_HK.UTF-8 UTF-8
+zh_TW.UTF-8 UTF-8
+zh_CN.UTF-8 UTF-8
+zh_CN.GB2312 GB2312
+zh_CN.GBK GBK
+zh_CN.GB18030 GB18030
+zh_HK.Big5 Big5
+zh_TW.Big5 Big5
+然后
+sudo locale-gen

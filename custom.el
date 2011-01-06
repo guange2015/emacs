@@ -40,4 +40,12 @@ scroll-conservatively 10000)
 (require 'linum)
 (global-linum-mode t)
 
+;;-------------------------使用Win下的选择习惯---------------
+;;用shift+方向键进行选择
+(pc-selection-mode)
+
+;;-------------------------设置默认Tab宽度---------------
+;;set default tab-width as 4, not 2
+(setq-default indent-tabs-mode nil)
+(setq default-tab-width 4)
 
