@@ -1,0 +1,3 @@
+[submodule "ruby-kit/rinari"]
+	path = ruby-kit/rinari
+	url = git://github.com/crazycode/rinari.git
