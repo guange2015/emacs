@@ -14,11 +14,11 @@
 
 (require 'rhtml-mode)
 (require 'rinari)
-(require 'rails)
+;;(require 'rails)
 
 (require 'textmate)
 (textmate-mode)
 
-(add-to-list 'load-path (concat dotfiles-dir "/plugin/git-emacs") )
+(add-to-list 'load-path (concat dotfiles-dir "/ruby-kit/git-emacs") )
 (require 'git-emacs)
 

@@ -1,0 +1,15 @@
+[submodule "ruby-kit/rhtml"]
+	path = ruby-kit/rhtml
+	url = git://github.com/eschulte/rhtml.git
+[submodule "ruby-kit/rinari"]
+	path = ruby-kit/rinari
+	url = git://github.com/technomancy/rinari.git
+[submodule "ruby-kit/ruby-test-mode"]
+	path = ruby-kit/ruby-test-mode
+	url = git://github.com/r0man/ruby-test-mode.git
+[submodule "ruby-kit/textmate"]
+	path = ruby-kit/textmate
+	url = git://github.com/defunkt/textmate.el.git
+[submodule "ruby-kit/git-emacs"]
+	path = ruby-kit/git-emacs
+	url = git://github.com/tsgates/git-emacs.git
