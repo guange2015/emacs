@@ -3,7 +3,7 @@
 (setq inhibit-startup-message t)
 ;; 改变 Emacs 标题栏的标题
 (setq frame-title-format "hhuai%b::%m")
-
+(menu-bar-mode nil)
 
 (defun set-frame-size-according-to-resolution ()
   (interactive)
