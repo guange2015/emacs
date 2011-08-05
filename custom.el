@@ -49,3 +49,6 @@ scroll-conservatively 10000)
 (setq-default indent-tabs-mode nil)
 (setq default-tab-width 4)
 
+;; Interactively Do Things (highly recommended, but not strictly required)
+(require 'ido)
+(ido-mode t)

@@ -4,7 +4,7 @@
 (setq dotfiles-dir (file-name-directory
                     (or (buffer-file-name) load-file-name)))
 
-(add-to-list 'load-path "~/.emacs.d/lib")
+(add-to-list 'load-path (concat dotfiles-dir "/lib"))
 (load-file (concat dotfiles-dir "/appearance.el"))
 (load-file (concat dotfiles-dir "/custom.el"))
 (load-file (concat dotfiles-dir "/keybind.el"))
@@ -15,4 +15,5 @@
 (yas/initialize)
 (yas/load-directory (concat dotfiles-dir "/plugin/yasnippet-0.6.1c/snippets"))
 
-(load-file (concat dotfiles-dir "/ruby-kit.el"))
+;;(load-file (concat dotfiles-dir "/ruby-kit.el"))
+(require 'starter-kit-ruby)
